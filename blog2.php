@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <title>LifeSure - Life Insurance Website Template</title>
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -134,7 +134,8 @@
                         Leverage agile frameworks to provide
                     </h1>
 
-                    <div class="blog-comment gap-3 d-flex justify-content-center mb-3 wow fadeInUp" data-wow-delay="0.3s"
+                    <div class="blog-comment gap-3 d-flex justify-content-center mb-3 wow fadeInUp"
+                        data-wow-delay="0.3s"
                         style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                         <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
@@ -143,48 +144,55 @@
 
                     <hr>
 
-                    <div class="d-flex align-items-start mb-4">
-                        <img src="img/blog-1.png" class="img-fluid me-4 wow fadeInLeft" data-wow-delay="0.4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft; width: 50%; max-width: 300px;">
-                        <div>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s"
-                                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, veniam? Velit,
-                                optio.
-                                Quisquam, debitis.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.6s"
-                                style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, libero! Alias ad
-                                eveniet
-                                distinctio labore.
-                            </p>
-                            <h3 class="wow fadeInUp" data-wow-delay="0.7s"
-                                style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                How to Pay Down Insurance Bills
-                            </h3>
-                            <p class="wow fadeInUp" data-wow-delay="0.8s"
-                                style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis! Similique,
-                                nihil
-                                expedita! At, aperiam!
-                            </p>
+                    <div class="container">
+                        <!-- First row for the image -->
+                        <div class="row mb-4 justify-content-center">
+                            <div class="col-12 text-center">
+                                <img src="img/blog-1.png" class="img-fluid wow fadeInLeft" data-wow-delay="0.4s"
+                                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            </div>
+                        </div>
 
-                            <blockquote class="blockquote mt-4 wow fadeInUp" data-wow-delay="0.9s"
-                                style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">
-                                <p class="mb-0">"The best way to predict the future is to create it."</p>
-                            </blockquote>
+                        <!-- Second row for blog content -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <p class="wow fadeInUp" data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, veniam?
+                                    Velit, optio. Quisquam, debitis.
+                                </p>
+                                <p class="wow fadeInUp" data-wow-delay="0.6s"
+                                    style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, libero! Alias ad
+                                    eveniet distinctio labore.
+                                </p>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.7s"
+                                    style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                    How to Pay Down Insurance Bills
+                                </h3>
+                                <p class="wow fadeInUp" data-wow-delay="0.8s"
+                                    style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!
+                                    Similique, nihil expedita! At, aperiam!
+                                </p>
 
-                            <h4 class="wow fadeInUp" data-wow-delay="1.0s"
-                                style="visibility: visible; animation-delay: 1.0s; animation-name: fadeInUp;">
-                                Conclusion
-                            </h4>
-                            <p class="wow fadeInUp" data-wow-delay="1.1s"
-                                style="visibility: visible; animation-delay: 1.1s; animation-name: fadeInUp;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem.
-                            </p>
+                                <blockquote class="blockquote mt-4 wow fadeInUp" data-wow-delay="0.9s"
+                                    style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">
+                                    <p class="mb-0">"The best way to predict the future is to create it."</p>
+                                </blockquote>
+
+                                <h4 class="wow fadeInUp" data-wow-delay="1.0s"
+                                    style="visibility: visible; animation-delay: 1.0s; animation-name: fadeInUp;">
+                                    Conclusion
+                                </h4>
+                                <p class="wow fadeInUp" data-wow-delay="1.1s"
+                                    style="visibility: visible; animation-delay: 1.1s; animation-name: fadeInUp;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem.
+                                </p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
                 <!-- Sidebar -->

@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LifeSure - Life Insurance Website Template</title>
+    <title>Services</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -16,7 +16,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Inter:slnt,wght@-10..0,100..900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Inter:slnt,wght@-10..0,100..900&amp;display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https:///use.fontawesome.com/releases/v5.15.4/css/all.css" />
@@ -67,8 +69,10 @@
                 </div>
                 <div class="modal-body d-flex align-items-center bg-primary">
                     <div class="input-group w-75 mx-auto d-flex">
-                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                        <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i
+                                class="fa fa-search"></i></span>
                     </div>
                 </div>
             </div>
@@ -117,57 +121,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#readMoreModal">Read More</a>
-                            </div>
-                        </div>
-
-                        <!-- Modal Structure -->
-                        <div class="modal fade" id="readMoreModal" tabindex="-1" aria-labelledby="readMoreModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="readMoreModalLabel">What is Life Insurance?</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <section>
-                                            <h2 class="mb-4">What is Life Insurance?</h2>
-                                            <p>Life insurance is a contract between an insurer and a policyholder in
-                                                which the insurer guarantees payment of a death benefit to named
-                                                beneficiaries upon the death of the insured. The policyholder pays a
-                                                premium, either regularly or as a lump sum.</p>
-
-                                            <h3 class="mt-4 mb-3">Types of Life Insurance</h3>
-                                            <ul>
-                                                <li><strong>Term Life Insurance:</strong> Provides coverage for a
-                                                    specific period.</li>
-                                                <li><strong>Whole Life Insurance:</strong> A permanent policy with a
-                                                    savings component.</li>
-                                                <li><strong>Universal Life Insurance:</strong> Offers flexibility in
-                                                    premium payments and death benefits.</li>
-                                            </ul>
-
-                                            <h3 class="mt-4 mb-3">Why You Need Life Insurance</h3>
-                                            <p>Life insurance provides financial protection for your loved ones in case
-                                                of your untimely death. It can cover funeral costs, replace lost income,
-                                                and even pay off outstanding debts such as a mortgage.</p>
-
-                                            <blockquote class="blockquote mt-4">
-                                                <p class="mb-0">"Life insurance isn’t for you. It’s for those you leave
-                                                    behind."</p>
-                                            </blockquote>
-
-                                            <h3 class="mt-4 mb-3">How to Choose the Right Policy</h3>
-                                            <p>Choosing the right life insurance policy depends on several factors,
-                                                including your financial goals, the needs of your family, and how much
-                                                coverage you can afford. It’s recommended to consult with a financial
-                                                advisor to ensure you get the right plan.</p>
-                                        </section>
-                                    </div>
-                                </div>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -186,57 +140,8 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#healthReadMoreModal">Read More</a>
-                            </div>
-                        </div>
-
-                        <!-- Modal Structure for Health Insurance -->
-                        <div class="modal fade" id="healthReadMoreModal" tabindex="-1"
-                            aria-labelledby="healthReadMoreModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="healthReadMoreModalLabel">What is Health Insurance?
-                                        </h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <section>
-                                            <h2 class="mb-4">What is Health Insurance?</h2>
-                                            <p>Health insurance is a type of insurance coverage that pays for medical
-                                                and surgical expenses incurred by the insured. It is designed to offer
-                                                financial support for medical treatments, including doctor's visits,
-                                                hospital stays, prescription medications, and surgeries.</p>
-
-                                            <h3 class="mt-4 mb-3">Types of Health Insurance</h3>
-                                            <ul>
-                                                <li><strong>Individual Health Insurance:</strong> Coverage for a single
-                                                    person.</li>
-                                                <li><strong>Family Floater Insurance:</strong> Provides coverage for the
-                                                    entire family under one plan.</li>
-                                                <li><strong>Critical Illness Insurance:</strong> Covers severe illnesses
-                                                    like cancer, heart attacks, and more.</li>
-                                            </ul>
-
-                                            <h3 class="mt-4 mb-3">Why You Need Health Insurance</h3>
-                                            <p>Health insurance protects against high medical costs and ensures that you
-                                                and your family receive the necessary treatments without financial
-                                                burden. It is an essential part of a comprehensive financial plan.</p>
-
-                                            <blockquote class="blockquote mt-4">
-                                                <p class="mb-0">"Health is the greatest gift. Protect it with the right
-                                                    coverage."</p>
-                                            </blockquote>
-
-                                            <h3 class="mt-4 mb-3">How to Choose the Right Policy</h3>
-                                            <p>Choosing the right health insurance policy depends on your healthcare
-                                                needs, age, and budget. Consider factors such as coverage limits,
-                                                co-pays, and the network of hospitals included in the plan.</p>
-                                        </section>
-                                    </div>
-                                </div>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HealthInsurance.php">Read
+                                    More</a>
                             </div>
                         </div>
                     </div>
@@ -255,55 +160,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#carInsuranceModal">Read More</a>
-                            </div>
-                        </div>
-
-                        <!-- Car Insurance Modal Structure -->
-                        <div class="modal fade" id="carInsuranceModal" tabindex="-1"
-                            aria-labelledby="carInsuranceModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="carInsuranceModalLabel">What is Car Insurance?</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <section>
-                                            <h2 class="mb-4">What is Car Insurance?</h2>
-                                            <p>Car insurance is a contract between you and the insurer that provides
-                                                financial protection against physical damage or bodily injury resulting
-                                                from traffic collisions or other incidents involving your vehicle.</p>
-
-                                            <h3 class="mt-4 mb-3">Types of Car Insurance</h3>
-                                            <ul>
-                                                <li><strong>Liability Coverage:</strong> Covers damages to others if
-                                                    you're at fault in an accident.</li>
-                                                <li><strong>Collision Coverage:</strong> Covers damages to your vehicle
-                                                    in case of a collision.</li>
-                                                <li><strong>Comprehensive Coverage:</strong> Covers damage caused by
-                                                    events like theft, vandalism, or natural disasters.</li>
-                                            </ul>
-
-                                            <h3 class="mt-4 mb-3">Why You Need Car Insurance</h3>
-                                            <p>Car insurance is required in most places by law and protects you from
-                                                financial loss in the event of an accident, damage, or theft. It also
-                                                provides liability protection for injuries or damages to others.</p>
-
-                                            <blockquote class="blockquote mt-4">
-                                                <p class="mb-0">"Driving without car insurance is like driving without
-                                                    brakes."</p>
-                                            </blockquote>
-
-                                            <h3 class="mt-4 mb-3">How to Choose the Right Policy</h3>
-                                            <p>When selecting car insurance, consider factors such as coverage options,
-                                                premiums, deductibles, and your driving history. It's essential to find
-                                                a balance between comprehensive coverage and affordable premiums.</p>
-                                        </section>
-                                    </div>
-                                </div>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -322,56 +179,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#homeInsuranceModal">Read More</a>
-                            </div>
-                        </div>
-
-                        <!-- Home Insurance Modal Structure -->
-                        <div class="modal fade" id="homeInsuranceModal" tabindex="-1"
-                            aria-labelledby="homeInsuranceModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="homeInsuranceModalLabel">What is Home Insurance?
-                                        </h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <section>
-                                            <h2 class="mb-4">What is Home Insurance?</h2>
-                                            <p>Home insurance is a type of property insurance that provides coverage for
-                                                a private residence. It protects homeowners from financial losses due to
-                                                disasters, theft, and liability claims.</p>
-
-                                            <h3 class="mt-4 mb-3">Types of Home Insurance</h3>
-                                            <ul>
-                                                <li><strong>Building Insurance:</strong> Covers the structure of your
-                                                    home, including walls, roof, and built-in fixtures.</li>
-                                                <li><strong>Contents Insurance:</strong> Covers personal belongings
-                                                    inside your home, such as furniture, electronics, and clothing.</li>
-                                                <li><strong>Liability Insurance:</strong> Protects you against legal
-                                                    claims for injury or damage to other people or property.</li>
-                                            </ul>
-
-                                            <h3 class="mt-4 mb-3">Why You Need Home Insurance</h3>
-                                            <p>Home insurance provides financial protection and peace of mind in case of
-                                                damage, theft, or liability claims. Most mortgage lenders require home
-                                                insurance to protect their investment.</p>
-
-                                            <blockquote class="blockquote mt-4">
-                                                <p class="mb-0">"Home insurance is not just a policy; it’s a protection
-                                                    plan for your sanctuary."</p>
-                                            </blockquote>
-
-                                            <h3 class="mt-4 mb-3">How to Choose the Right Policy</h3>
-                                            <p>When selecting home insurance, consider coverage options, deductibles,
-                                                and premium costs. It’s important to assess the value of your home and
-                                                belongings to determine the right level of coverage.</p>
-                                        </section>
-                                    </div>
-                                </div>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -383,12 +191,14 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
+    <!-- <div class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Testimonial</h4>
                 <h1 class="display-4 mb-4">What Our Customers Are Saying</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                    sint dolorem autem obcaecati, ipsam mollitia hic.
                 </p>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
@@ -396,7 +206,8 @@
                     <div class="row g-0">
                         <div class="col-4  col-lg-4 col-xl-3">
                             <div class="h-100">
-                                <img src="img/testimonial-1.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                <img src="img/testimonial-1.jpg" class="img-fluid h-100 rounded"
+                                    style="object-fit: cover;" alt="">
                             </div>
                         </div>
                         <div class="col-8 col-lg-8 col-xl-9">
@@ -410,7 +221,8 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
+                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error
+                                    molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
                                 </p>
                             </div>
                         </div>
@@ -420,7 +232,8 @@
                     <div class="row g-0">
                         <div class="col-4  col-lg-4 col-xl-3">
                             <div class="h-100">
-                                <img src="img/testimonial-2.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                <img src="img/testimonial-2.jpg" class="img-fluid h-100 rounded"
+                                    style="object-fit: cover;" alt="">
                             </div>
                         </div>
                         <div class="col-8 col-lg-8 col-xl-9">
@@ -434,7 +247,8 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star text-body"></i>
                                 </div>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
+                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error
+                                    molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
                                 </p>
                             </div>
                         </div>
@@ -444,7 +258,8 @@
                     <div class="row g-0">
                         <div class="col-4  col-lg-4 col-xl-3">
                             <div class="h-100">
-                                <img src="img/testimonial-3.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+                                <img src="img/testimonial-3.jpg" class="img-fluid h-100 rounded"
+                                    style="object-fit: cover;" alt="">
                             </div>
                         </div>
                         <div class="col-8 col-lg-8 col-xl-9">
@@ -458,7 +273,8 @@
                                     <i class="fas fa-star text-body"></i>
                                     <i class="fas fa-star text-body"></i>
                                 </div>
-                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
+                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error
+                                    molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam,
                                 </p>
                             </div>
                         </div>
@@ -466,7 +282,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 

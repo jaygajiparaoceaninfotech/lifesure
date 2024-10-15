@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LifeSure - Life Insurance Website Template</title>
+    <title>About us</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -100,10 +100,16 @@
         <div class="container pb-5">
             <div class="row g-5">
                 <!-- Left Column with Image -->
-                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
-                    <img src="https://img.freepik.com/premium-vector/business-meeting-illustration_1302918-634.jpg?w=740"
-                        alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s"
+                    style="display: flex; justify-content: center;"> <!-- Flexbox for centering -->
+                    <img src="https://hirefullstackdeveloperindia.com/wp-content/uploads/2024/07/hero-banner.png" alt=""
+                        style="max-width: 100%; height: auto;"> <!-- Responsive properties -->
                 </div>
+
+
+                <!-- <img src="https://img.freepik.com/premium-vector/business-meeting-illustration_1302918-634.jpg?w=740"
+                    alt="" style="width: 100%; height: 100%; object-fit: cover;"> -->
+
                 <!-- Right Column with Content -->
                 <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="about-item-content bg-white rounded p-5 h-100">
@@ -127,7 +133,7 @@
 
 
     <!-- Feature Start -->
-    <div class="container-fluid feature bg-light pb-5">
+    <!-- <div class="container-fluid feature bg-light pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Features</h4>
@@ -138,52 +144,56 @@
                 </p>
             </div>
             <div class="row g-4">
-    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="feature-item p-4 pt-0 text-center">
-            <div class="feature-icon p-4 mb-4">
-                <i class="far fa-handshake fa-3x"></i>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item p-4 pt-0 text-center">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="far fa-handshake fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Trusted Company</h4>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
+                            pariatur...</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item p-4 pt-0 text-center">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fas fa-money-bill-wave fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Anytime Money</h4>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
+                            pariatur...</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item p-4 pt-0 text-center">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fa fa-bullseye fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Flexible Plans</h4>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
+                            pariatur...</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="feature-item p-4 pt-0 text-center">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fas fa-headset fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">24/7 Fast Support</h4>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit
+                            pariatur...</p>
+                    </div>
+                </div>
             </div>
-            <h4 class="mb-4">Trusted Company</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</p>
-        </div>
-    </div>
-    
-    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="feature-item p-4 pt-0 text-center">
-            <div class="feature-icon p-4 mb-4">
-                <i class="fas fa-money-bill-wave fa-3x"></i>
-            </div>
-            <h4 class="mb-4">Anytime Money</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</p>
-        </div>
-    </div>
-    
-    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="feature-item p-4 pt-0 text-center">
-            <div class="feature-icon p-4 mb-4">
-                <i class="fa fa-bullseye fa-3x"></i>
-            </div>
-            <h4 class="mb-4">Flexible Plans</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</p>
-        </div>
-    </div>
-    
-    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-        <div class="feature-item p-4 pt-0 text-center">
-            <div class="feature-icon p-4 mb-4">
-                <i class="fas fa-headset fa-3x"></i>
-            </div>
-            <h4 class="mb-4">24/7 Fast Support</h4>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</p>
-        </div>
-    </div>
-</div>
 
         </div>
-    </div>
+    </div> -->
     <!-- Feature End -->
     <!-- Team Start -->
-    <div class="container-fluid team py-5">
+     <div class="container-fluid team py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>

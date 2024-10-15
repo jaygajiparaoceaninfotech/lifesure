@@ -1,7 +1,6 @@
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-    <div class="container-fluid py-5 py-5">
+    <div class="container-fluid py-5">
         <div class="row g-5">
-
             <!-- Logo and Description -->
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
@@ -21,23 +20,23 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
                     <h4 class="text-white mb-4">Important Links</h4>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                    <a href="feature.php"><i class="fas fa-angle-right me-2"></i> Features</a>
+                    <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
+                    <a href="FAQ.php"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
+                    <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                    <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contact</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
                     <h4 class="text-white mb-4">Our Links</h4>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                    <a href="feature.php"><i class="fas fa-angle-right me-2"></i> Features</a>
+                    <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
+                    <a href="FAQ.php"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
+                    <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                    <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contact</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
@@ -47,8 +46,7 @@
                         <div class="col-12">
                             <div class="row g-4">
                                 <div class="col-12">
-                                    <a href="https://www.google.com/maps/search/?api=1&query=123+Street,+New+York,+USA"
-                                        target="_blank">
+                                    <a href="https://www.google.com/maps/search/?api=1&query=123+Street,+New+York,+USA" target="_blank">
                                         <div class="d-flex">
                                             <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                 <i class="fas fa-map-marker-alt fa-2x"></i>
@@ -72,7 +70,6 @@
                                             </div>
                                         </div>
                                     </a>
-
                                 </div>
                                 <div class="col-12">
                                     <a href="tel:+01234567890">

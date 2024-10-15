@@ -4,8 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LifeSure - Life Insurance Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
@@ -175,69 +174,61 @@
                 </p>
             </div>
             <div class="row g-4 justify-content-center">
-            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item">
-                        <div class="blog-img">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
                             <img src="img/blog-1.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-category py-2 px-4">
-                                <span>Business</span>
+                            <div class="service-icon p-3">
+                                <i class="fa fa-users fa-2x"></i>
                             </div>
                         </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                        <!-- Service Content with Read More Button -->
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                                    eum!</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
-                            <!-- Updated Read More link to blog1.php -->
-                            <a href="blog1.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item">
-                        <div class="blog-img">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
                             <img src="img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-category py-2 px-4">
-                                <span>Business</span>
+                            <div class="service-icon p-3">
+                                <i class="fa fa-hospital fa-2x"></i>
                             </div>
                         </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                        <!-- Health Insurance Service Content with Read More Button -->
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                                    eum!</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HealthInsurance.php">Read
+                                    More</a>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
-                            <a href="blog2.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
-                            <div class="blog-category py-2 px-4">
-                                <span>Business</span>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
+                            <div class="service-icon p-3">
+                                <i class="fa fa-car fa-2x"></i>
                             </div>
                         </div>
-                        <div class="blog-content p-4">
-                            <div class="blog-comment d-flex justify-content-between mb-3">
-                                <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
-                                <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
-                                <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
+                        <!-- Car Insurance Section with Read More Button and Modal -->
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                                    eum!</p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
                             </div>
-                            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-                            <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
-                                impedit eligendi? Quibusdam, laudantium.</p>
-                            <a href="blog3.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -255,61 +246,11 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#homeInsuranceModal">Read More</a>
-                            </div>
-                        </div>
-
-                        <!-- Home Insurance Modal Structure -->
-                        <div class="modal fade" id="homeInsuranceModal" tabindex="-1"
-                            aria-labelledby="homeInsuranceModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="homeInsuranceModalLabel">What is Home Insurance?
-                                        </h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <section>
-                                            <h2 class="mb-4">What is Home Insurance?</h2>
-                                            <p>Home insurance is a type of property insurance that provides coverage for
-                                                a private residence. It protects homeowners from financial losses due to
-                                                disasters, theft, and liability claims.</p>
-
-                                            <h3 class="mt-4 mb-3">Types of Home Insurance</h3>
-                                            <ul>
-                                                <li><strong>Building Insurance:</strong> Covers the structure of your
-                                                    home, including walls, roof, and built-in fixtures.</li>
-                                                <li><strong>Contents Insurance:</strong> Covers personal belongings
-                                                    inside your home, such as furniture, electronics, and clothing.</li>
-                                                <li><strong>Liability Insurance:</strong> Protects you against legal
-                                                    claims for injury or damage to other people or property.</li>
-                                            </ul>
-
-                                            <h3 class="mt-4 mb-3">Why You Need Home Insurance</h3>
-                                            <p>Home insurance provides financial protection and peace of mind in case of
-                                                damage, theft, or liability claims. Most mortgage lenders require home
-                                                insurance to protect their investment.</p>
-
-                                            <blockquote class="blockquote mt-4">
-                                                <p class="mb-0">"Home insurance is not just a policy; it’s a protection
-                                                    plan for your sanctuary."</p>
-                                            </blockquote>
-
-                                            <h3 class="mt-4 mb-3">How to Choose the Right Policy</h3>
-                                            <p>When selecting home insurance, consider coverage options, deductibles,
-                                                and premium costs. It’s important to assess the value of your home and
-                                                belongings to determine the right level of coverage.</p>
-                                        </section>
-                                    </div>
-                                </div>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
     </div>
@@ -414,7 +355,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog1.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -430,7 +371,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog2.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -446,7 +387,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog3.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -652,7 +593,34 @@
     </div>
     <!-- Testimonial End -->
 
-
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s"">
+        <div class="row">
+            <div class="col-12 col-sm-4 mb-4">
+                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef3a49">
+                    <div class="image">
+                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Digital-India-Color.png?w=640&ssl=1"
+                            alt="Digital-India-Color" class="img-fluid" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 mb-4">
+                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef40f4">
+                    <div class="image">
+                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Make_In_India.png?w=640&ssl=1"
+                            alt="Make_In_India" class="img-fluid" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 mb-4">
+                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6f00535">
+                    <div class="image">
+                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Swacch-Bharat-Color.png?w=640&ssl=1"
+                            alt="Swacch-Bharat-Color" class="img-fluid" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer Start -->
     <?php
     include 'footer.php';
