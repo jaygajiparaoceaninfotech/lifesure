@@ -1,10 +1,14 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="utf-8">
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
+        Canada – Ocean Infotech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -78,15 +82,15 @@
     <!-- Navbar & Hero End -->
 
     <!-- Life Insurance Content -->
-    <section>
-        <div class="service-img" style="text-align: center;"> <!-- Centering the image -->
-            <img src="img/blog-1.png" alt="" style="max-width: 100%; height: auto; display: inline-block;">
-            <!-- Responsive properties -->
-            <div class="service-icon p-3" style="text-align: center;">
-                <i class="fa fa-users fa-2x"></i>
-            </div>
+    <section style="max-width: 642px; margin: 0 auto; overflow: hidden; position: relative;">
+        <div class="col-md-12 wow fadeInRight" data-wow-delay="0.4s"
+            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+            <img src="img/life.png" alt="Life Image"
+                style="width: 100%; height: auto; display: block; object-fit: cover;">
         </div>
-        <hr>
+    </section>
+
+    <section>
         <h2 class="mb-4">What is Life Insurance?</h2>
         <p>Life insurance is a contract between an insurer and a policyholder in which the insurer guarantees payment of
             a death benefit to named beneficiaries upon the death of the insured. The policyholder pays a premium,

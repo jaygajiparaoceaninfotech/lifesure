@@ -5,7 +5,7 @@
                 <div class="col-md-6 text-center text-md-start mb-md-0">
                     <span class="text-body">
                         <a href="#" class="border-bottom text-white">
-                            <i class="fas fa-copyright text-light me-2"></i>LifeSure
+                            <i class="fas fa-copyright text-light me-2"></i>OceanInfotech
                         </a>, All rights reserved.
                     </span>
                 </div>

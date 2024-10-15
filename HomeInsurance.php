@@ -4,7 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
+        Canada – Ocean Infotech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -79,13 +81,14 @@
 
     <!-- Life Insurance Content -->
     <section>
-    <div class="service-img" style="text-align: center;"> <!-- Centering the image -->
+        <div class="service-img" style="text-align: center;"> <!-- Centering the image -->
             <img src="img/blog-4.png" alt="" style="max-width: 100%; height: auto; display: inline-block;">
             <!-- Responsive properties -->
             <div class="service-icon p-3" style="text-align: center;">
                 <i class="fa fa-users fa-2x"></i>
             </div>
         </div>
+        <hr>
         <h2 class="mb-4">What is Home Insurance?</h2>
         <p>Home insurance is a type of property insurance that provides coverage for
             a private residence. It protects homeowners from financial losses due to
@@ -127,7 +130,7 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

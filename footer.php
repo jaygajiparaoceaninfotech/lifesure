@@ -5,7 +5,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
                     <a href="index.php" class="p-0">
-                        <h3 class="text-white"><i class="fab fa-slack me-3"></i> LifeSure</h3>
+                        <h3 class="text-white"><i class="fab fa-slack me-3"></i> OceanInfotech</h3>
                     </a>
                     <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor
                         sit amet, consectetur adipiscing...</p>
@@ -46,7 +46,8 @@
                         <div class="col-12">
                             <div class="row g-4">
                                 <div class="col-12">
-                                    <a href="https://www.google.com/maps/search/?api=1&query=123+Street,+New+York,+USA" target="_blank">
+                                    <a href="https://www.google.com/maps/search/?api=1&query=123+Street,+New+York,+USA"
+                                        target="_blank">
                                         <div class="d-flex">
                                             <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                 <i class="fas fa-map-marker-alt fa-2x"></i>

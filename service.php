@@ -121,7 +121,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HealthInsurance.php">Read
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="HealthInsurance.php">Read
                                     More</a>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

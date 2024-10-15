@@ -8,7 +8,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About us</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>About us</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -193,7 +194,7 @@
     </div> -->
     <!-- Feature End -->
     <!-- Team Start -->
-     <div class="container-fluid team py-5">
+    <div class="container-fluid team py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
@@ -209,14 +210,14 @@
                         <div class="team-img">
                             <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -230,14 +231,14 @@
                         <div class="team-img">
                             <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -251,14 +252,14 @@
                         <div class="team-img">
                             <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -272,14 +273,14 @@
                         <div class="team-img">
                             <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -308,7 +309,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

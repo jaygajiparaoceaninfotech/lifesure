@@ -86,6 +86,7 @@
                 <i class="fa fa-users fa-2x"></i>
             </div>
         </div>
+        <hr>
         <h2 class="mb-4">What is Car Insurance?</h2>
         <p>Car insurance is a contract between you and the insurer that provides
             financial protection against physical damage or bodily injury resulting
@@ -126,7 +127,7 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

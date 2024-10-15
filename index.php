@@ -4,7 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
+        Canada – Ocean Infotech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
@@ -133,10 +135,16 @@
         <div class="container pb-5">
             <div class="row g-5">
                 <!-- Left Column with Image -->
-                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
-                    <img src="https://img.freepik.com/premium-vector/business-meeting-illustration_1302918-634.jpg?w=740"
-                        alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s"
+                    style="display: flex; justify-content: center;"> <!-- Flexbox for centering -->
+                    <img src="https://hirefullstackdeveloperindia.com/wp-content/uploads/2024/07/hero-banner.png" alt=""
+                        style="max-width: 100%; height: auto;"> <!-- Responsive properties -->
                 </div>
+
+
+                <!-- <img src="https://img.freepik.com/premium-vector/business-meeting-illustration_1302918-634.jpg?w=740"
+                    alt="" style="width: 100%; height: 100%; object-fit: cover;"> -->
+
                 <!-- Right Column with Content -->
                 <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="about-item-content bg-white rounded p-5 h-100">
@@ -156,6 +164,34 @@
             </div>
         </div>
     </div>
+
+    <!-- <div class="container-fluid bg-light about mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="row g-5">
+                Left Column with Image
+                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInLeft" data-wow-delay="0.2s">
+                    <img src="https://img.freepik.com/premium-vector/business-meeting-illustration_1302918-634.jpg?w=740"
+                        alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                Right Column with Content
+                <div class="col-xl-6 col-lg-6 col-md-12 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="about-item-content bg-white rounded p-5 h-100">
+                        <h4 class="text-primary">About Our Company</h4>
+                        <h1 class="display-4 mb-4">High Range of Exploring Protection</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis
+                            consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae
+                            eligendi modi hic.</p>
+                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
+                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Production or trading of
+                            goods.</p>
+                        <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is
+                            flexible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <!-- <div class="about-item-content bg-white rounded p-5 h-100"> -->
     <!-- </div> -->
@@ -188,7 +224,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +243,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HealthInsurance.php">Read
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="HealthInsurance.php">Read
                                     More</a>
                             </div>
                         </div>
@@ -227,7 +263,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +282,7 @@
                                 <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
+                                <a class="btn btn-warning rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -413,14 +449,14 @@
                         <div class="team-img">
                             <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -434,14 +470,14 @@
                         <div class="team-img">
                             <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -455,14 +491,14 @@
                         <div class="team-img">
                             <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -476,14 +512,14 @@
                         <div class="team-img">
                             <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
                             <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <!-- <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="#"><i
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-2" href="#"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="#"><i
-                                        class="fab fa-instagram"></i></a>
+                                <a class="btn btn-warning btn-sm-square rounded-pill mb-0" href="#"><i
+                                        class="fab fa-instagram"></i></a> -->
                             </div>
                         </div>
                         <div class="team-title p-4">
@@ -595,31 +631,31 @@
 
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s"">
         <div class="row">
-            <div class="col-12 col-sm-4 mb-4">
-                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef3a49">
-                    <div class="image">
-                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Digital-India-Color.png?w=640&ssl=1"
-                            alt="Digital-India-Color" class="img-fluid" style="max-width: 100%; height: auto;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 mb-4">
-                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef40f4">
-                    <div class="image">
-                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Make_In_India.png?w=640&ssl=1"
-                            alt="Make_In_India" class="img-fluid" style="max-width: 100%; height: auto;">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 mb-4">
-                <div class="tm-image tm-animation move-up" id="tm-image-670e0e6f00535">
-                    <div class="image">
-                        <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Swacch-Bharat-Color.png?w=640&ssl=1"
-                            alt="Swacch-Bharat-Color" class="img-fluid" style="max-width: 100%; height: auto;">
-                    </div>
+        <div class="col-12 col-sm-4 mb-4">
+            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef3a49">
+                <div class="image">
+                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Digital-India-Color.png?w=640&ssl=1"
+                        alt="Digital-India-Color" class="img-fluid" style="max-width: 100%; height: auto;">
                 </div>
             </div>
         </div>
+        <div class="col-12 col-sm-4 mb-4">
+            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef40f4">
+                <div class="image">
+                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Make_In_India.png?w=640&ssl=1"
+                        alt="Make_In_India" class="img-fluid" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 mb-4">
+            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6f00535">
+                <div class="image">
+                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Swacch-Bharat-Color.png?w=640&ssl=1"
+                        alt="Swacch-Bharat-Color" class="img-fluid" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <!-- Footer Start -->
     <?php
@@ -637,7 +673,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
