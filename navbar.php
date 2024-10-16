@@ -1,7 +1,7 @@
 <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="#" class="navbar-brand p-0">
+            <a href="https://www.oceaninfotech.co.in/" class="navbar-brand p-0">
                 <img src="https://www.oceaninfotech.co.in/assets/images/logo.png" alt="LifeSure Logo" class="me-2" style="height: 60px;"> <!-- Increased height -->
             </a>
 

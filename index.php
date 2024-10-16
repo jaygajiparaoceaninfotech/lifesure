@@ -631,34 +631,7 @@
     </div>
     <!-- Testimonial End -->
 
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s"">
-        <div class="row">
-        <div class="col-12 col-sm-4 mb-4">
-            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef3a49">
-                <div class="image">
-                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Digital-India-Color.png?w=640&ssl=1"
-                        alt="Digital-India-Color" class="img-fluid" style="max-width: 100%; height: auto;">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 mb-4">
-            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6ef40f4">
-                <div class="image">
-                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Make_In_India.png?w=640&ssl=1"
-                        alt="Make_In_India" class="img-fluid" style="max-width: 100%; height: auto;">
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-4 mb-4">
-            <div class="tm-image tm-animation move-up" id="tm-image-670e0e6f00535">
-                <div class="image">
-                    <img src="https://i0.wp.com/codequality.us/wp-content/uploads/2023/11/Swacch-Bharat-Color.png?w=640&ssl=1"
-                        alt="Swacch-Bharat-Color" class="img-fluid" style="max-width: 100%; height: auto;">
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+   
     <!-- Footer Start -->
     <?php
     include 'footer.php';

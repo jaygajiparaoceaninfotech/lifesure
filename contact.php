@@ -156,44 +156,44 @@
                 </div>
                 <div class="col-12">
                     <div>
-                        <div class="row g-4">
-                            <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fas fa-map-marker-alt fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Address</h4>
-                                        <a href="https://www.google.com/maps/place/Ocean+Infotech/@22.275771,70.778459,14z/data=!4m6!3m5!1s0x3959c97f9d98384d:0x58954dd77314a330!8m2!3d22.275771!4d70.7784594!16s%2Fg%2F11c6vksdny?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
-                                            title="FF-103 Alpha One, Near Ambedkar chok,150 Feet Ring Road, Rajkot - 360004">FF-103
-                                            Alpha One, Near Ambedkar chok,<br>150 Feet Ring Road, Rajkot - 360004</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fas fa-envelope fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Mail Us</h4>
-                                        <a href="mailto:info@oceaninfotech.co.in"
-                                            title="Mail on info@oceaninfotech.co.in">info@oceaninfotech.co.in</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fa fa-phone-alt fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Telephone</h4>
-                                        <a href="tel:+918000853781" title="Call on +91 80008 53781">+91-80008-53781</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row g-4 justify-content-center text-center">
+    <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+        <div class="contact-add-item">
+            <div class="contact-icon text-primary mb-4">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+            <div>
+                <h4>Address</h4>
+                <a href="https://www.google.com/maps/place/Ocean+Infotech/@22.275771,70.778459,14z/data=!4m6!3m5!1s0x3959c97f9d98384d:0x58954dd77314a330!8m2!3d22.275771!4d70.7784594!16s%2Fg%2F11c6vksdny?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" title="FF-103 Alpha One, Near Ambedkar chok,150 Feet Ring Road, Rajkot - 360004">
+                    FF-103 Alpha One, Near Ambedkar chok,<br>150 Feet Ring Road, Rajkot - 360004
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+        <div class="contact-add-item">
+            <div class="contact-icon text-primary mb-4">
+                <i class="fas fa-envelope fa-2x"></i>
+            </div>
+            <div>
+                <h4>Mail Us</h4>
+                <a href="mailto:info@oceaninfotech.co.in" title="Mail on info@oceaninfotech.co.in">info@oceaninfotech.co.in</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+        <div class="contact-add-item">
+            <div class="contact-icon text-primary mb-4">
+                <i class="fa fa-phone-alt fa-2x"></i>
+            </div>
+            <div>
+                <h4>Telephone</h4>
+                <a href="tel:+918000853781" title="Call on +91 80008 53781">+91-80008-53781</a>
+            </div>
+        </div>
+    </div>
+</div>
+
                     </div>
                 </div>
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">

@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
+        Canada – Ocean Infotech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -112,10 +114,10 @@
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Blog</h4>
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Blog Detail</h4>
             <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                <li class="breadcrumb-item active text-primary">Blog</li>
+                <li class="breadcrumb-item active text-primary">Blog Detail</li>
             </ol>
         </div>
     </div>
@@ -193,50 +195,32 @@
                 </div>
 
                 <!-- Sidebar -->
-                <div class="blog-sidebar">
+                <div class="col-lg-4 blog-sidebar border-left">
                     <h3>Related Posts</h3>
 
                     <div class="recent-post-bx" <?php if ($current_blog === 'blog1')
                         echo 'style="display: none;"'; ?>>
                         <img src="https://www.oceaninfotech.co.in/blogs_image/1698727718_b-1.jpg"
                             alt="Blog 1: Which Allows You to Pay Down Insurance Bills" class="img-fluid recent-img" />
-                        <div class="recent-text">
-                            <p>
-                                <a href="blog1.php" title="Blog 1: Which Allows You to Pay Down Insurance Bills">
-                                    Blog 1: Which Allows You to Pay Down Insurance Bills
-                                </a>
-                            </p>
-                            <span>3-10-2021</span>
-                        </div>
+                        <span class="date-span">3-10-2021</span>
                     </div>
+                    <p>
+                        <a href="blog1.php" title="Blog 1: Which Allows You to Pay Down Insurance Bills">
+                            Blog 1: Which Allows You to Pay Down Insurance Bills
+                        </a>
+                    </p>
 
                     <div class="recent-post-bx" <?php if ($current_blog === 'blog2')
                         echo 'style="display: none;"'; ?>>
                         <img src="https://www.oceaninfotech.co.in/blogs_image/1698727856_b4.jpg"
                             alt="Blog 2: Leverage agile frameworks to provide" class="img-fluid recent-img" />
-                        <div class="recent-text">
-                            <p>
-                                <a href="blog2.php" title="Blog 2: Leverage agile frameworks to provide">
-                                    Blog 2: Leverage agile frameworks to provide
-                                </a>
-                            </p>
-                            <span>30 Dec 2025</span>
-                        </div>
+                        <span class="date-span">30 Dec 2025</span>
                     </div>
-
-                    <div class="recent-post-bx" <?php if ($current_blog === 'blog3')
-                        echo 'style="display: none;"'; ?>>
-                        <img src="https://www.oceaninfotech.co.in/blogs_image/1698727820_b3.jpg"
-                            alt="Blog 3: Lorem ipsum dolor sit." class="img-fluid recent-img" />
-                        <div class="recent-text">
-                            <p>
-                                <a href="blog3.php" title="Blog 3: Lorem ipsum dolor sit.">
-                                    Blog 3: Lorem ipsum dolor sit.
-                                </a>
-                            </p>
-                            <span>30-10-2023</span>
-                        </div>
-                    </div>
+                    <p>
+                        <a href="blog2.php" title="Blog 2: Leverage agile frameworks to provide">
+                            Blog 2: Leverage agile frameworks to provide
+                        </a>
+                    </p>
                 </div>
 
 

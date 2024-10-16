@@ -129,7 +129,7 @@
 
 /*** Navbar Start ***/
 .nav-bar {
-  background: var(--bs-white);
+  background: #fcd1a014;
   transition: 1s;
 }
 
@@ -1000,3 +1000,34 @@ a:hover .text-hover {
   color: #f98a0e;
   /* Hover text color */
 }
+.recent-post-bx {
+  position: relative;
+}
+
+.date-span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional for visibility */
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 3px; /* Optional */
+}
+
+.vertical-line {
+  width: 1px; /* Adjust the width of the line */
+  background-color: #ccc; /* Change the color of the line */
+  height: auto; /* Use auto to make it flexible */
+  margin: 0 15px; /* Add some spacing around the line */
+}
+.border-left {
+  border-left: 1px solid #ddd;
+}
+
+@media (max-width: 991.98px) { /* Hides the border for screens less than 992px */
+  .border-left {
+      border-left: none;
+  }
+}
+
