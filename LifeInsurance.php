@@ -78,6 +78,16 @@
     <!-- Navbar & Hero End -->
 
     <!-- Life Insurance Content -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">Life Insurance</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+                <li class="breadcrumb-item active text-primary">Life Insurance</li>
+            </ol>
+        </div>
+    </div>
     <section>
         <div class="service-img" style="text-align: center;"> <!-- Centering the image -->
             <img src="img/blog-1.png" alt="" style="max-width: 100%; height: auto; display: inline-block;">

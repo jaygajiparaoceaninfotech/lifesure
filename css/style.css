@@ -11,6 +11,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 /*** Spinner End ***/
 
 .back-to-top {
@@ -70,18 +71,19 @@
 }
 
 .btn.btn-warning:hover {
-  background: var(--bs-dark);
+  /* background: var(--bs-dark); */
   color: var(--bs-white);
 }
 
 .btn.btn-light {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
   border: none;
 }
 
 .btn.btn-light:hover {
   color: var(--bs-white);
-  background: var(--bs-dark);
+  background: #f98a0e;
 }
 
 .btn.btn-dark {
@@ -90,7 +92,8 @@
 }
 
 .btn.btn-dark:hover {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
   background: var(--bs-light);
 }
 
@@ -102,11 +105,13 @@
   font-weight: 600;
   vertical-align: middle;
   margin-left: 8px;
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .topbar .dropdown .dropdown-menu a:hover {
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
   color: var(--bs-white);
 }
 
@@ -119,6 +124,7 @@
   transition: 0.5s;
   opacity: 1;
 }
+
 /*** Topbar End ***/
 
 /*** Navbar Start ***/
@@ -150,7 +156,8 @@
 .navbar-light .navbar-nav .nav-item.active,
 .navbar-light .navbar-nav .nav-item:hover .nav-link,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 @media (max-width: 991px) {
@@ -180,14 +187,16 @@
     display: flex;
     margin-top: 20px;
     padding-bottom: 20px;
-    background: var(--bs-light);
+    background: #fcd1a014;
     border-radius: 10px;
   }
 
   .navbar.navbar-expand-lg .navbar-toggler {
     padding: 8px 15px;
-    border: 1px solid var(--bs-warning);
-    color: var(--bs-warning);
+    border: 1px solid #f98a0e;
+    ;
+    color: #f98a0e;
+    ;
   }
 }
 
@@ -201,7 +210,8 @@
 }
 
 .dropdown .dropdown-menu .dropdown-item:hover {
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
   color: var(--bs-white);
 }
 
@@ -252,6 +262,7 @@
     opacity: 1;
   }
 }
+
 /*** Navbar End ***/
 
 /*** Carousel Hero Header Start ***/
@@ -266,7 +277,8 @@
   height: 60px;
   border-radius: 60px;
   background: var(--bs-light);
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
   font-size: 26px;
   display: flex;
   align-items: center;
@@ -280,6 +292,7 @@
   transform: translateX(-50%);
   margin-left: 30px;
 }
+
 .header-carousel .owl-nav .owl-next {
   bottom: 30px;
   right: 50%;
@@ -289,7 +302,7 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-  box-shadow: inset 0 0 100px 0 var(--bs-secondary);
+  box-shadow: inset 0 0 100px 0 var(--bs-warning);
   color: var(--bs-white);
 }
 
@@ -333,14 +346,16 @@
     margin-left: 45px;
   }
 }
+
 /*** Carousel Hero Header End ***/
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgb(249, 162, 14, 0.68), rgba(0, 0, 0, 0.2)),
     url(../img/bg-breadcrumb.jpg);
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,6 +370,7 @@
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
   color: var(--bs-white);
 }
+
 /*** Single Page Hero Header End ***/
 
 /*** Feature Start ***/
@@ -365,7 +381,8 @@
 }
 
 .feature .feature-item:hover {
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
 }
 
 .feature .feature-item .feature-icon {
@@ -402,7 +419,8 @@
 }
 
 .feature .feature-item .feature-icon {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .feature .feature-item .feature-icon,
@@ -414,6 +432,7 @@
 .feature .feature-item:hover .feature-icon {
   color: var(--bs-white);
 }
+
 .feature .feature-item:hover h4,
 .feature .feature-item:hover p {
   color: var(--bs-white);
@@ -421,19 +440,22 @@
 
 .feature .feature-item:hover a.btn {
   background: var(--bs-white);
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .feature .feature-item:hover a.btn:hover {
   background: var(--bs-dark);
   color: var(--bs-white);
 }
+
 /*** Feature End ***/
 
 /*** Service Start ***/
 .service .service-item {
   border-radius: 10px;
 }
+
 .service .service-item .service-img {
   position: relative;
   overflow: hidden;
@@ -483,7 +505,8 @@
 }
 
 .service .service-item .service-img .service-icon i {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
   transition: 0.5s;
 }
 
@@ -495,7 +518,8 @@
 .service .service-item:hover .service-img .service-icon {
   bottom: 0;
   color: var(--bs-white);
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
 }
 
 .service .service-content {
@@ -517,25 +541,19 @@
 
 .service .service-item:hover .service-content .service-content-inner .h4,
 .service .service-item:hover .service-content .service-content-inner p {
-  color: var(--bs-white);
+  color: black;
 }
 
-.service
-  .service-item:hover
-  .service-content
-  .service-content-inner
-  .btn.btn-warning {
-  color: var(--bs-warning);
-  background: var(--bs-white);
+.service .service-item:hover .service-content .service-content-inner .btn.btn-warning {
+  color: #f98a0e;
+  ;
+  background: #fcd1a014;
 }
 
-.service
-  .service-item:hover
-  .service-content
-  .service-content-inner
-  .btn.btn-warning:hover {
+.service .service-item:hover .service-content .service-content-inner .btn.btn-warning:hover {
   color: var(--bs-white);
-  background: var(--bs-dark);
+  /* background: var(--bs-dark); */
+  background: orange;
 }
 
 .service .service-item:hover .service-content .service-content-inner .h4:hover {
@@ -551,7 +569,8 @@
   left: 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: var(--bs-warning);
+  background:#fcd1a014;
+  ;
   transition: 0.5s;
   z-index: 1;
 }
@@ -559,23 +578,22 @@
 .service .service-item:hover .service-content::after {
   height: 100%;
 }
+
 /*** Service End ***/
 
 /*** FAQs Start ***/
 .faq-section .accordion .accordion-item .accordion-header .accordion-button {
   color: var(--bs-white);
-  background: rgba(1, 95, 201, 0.8);
+  background: #f98a0e;
   font-size: 18px;
 }
 
-.faq-section
-  .accordion
-  .accordion-item
-  .accordion-header
-  .accordion-button.collapsed {
-  color: var(--bs-warning);
-  background: var(--bs-light);
+.faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+  color: #f98a0e;
+  ;
+  background: #fcd1a014;
 }
+
 /*** FAQs End ***/
 
 /*** Blog Start ***/
@@ -583,7 +601,7 @@
   border-radius: 10px;
   transition: 0.5s;
 }
-
+  
 .blog .blog-item:hover {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
 }
@@ -632,14 +650,15 @@
   border-top-left-radius: 10px;
   display: inline-flex;
   color: var(--bs-white);
-  background: var(--bs-warning);
+  background: #dda666;
+  ; 
   z-index: 9;
 }
 
 .blog .blog-item .blog-content {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: var(--bs-light);
+  background: #fcd1a014;
 }
 
 .blog .blog-item .blog-content a.btn {
@@ -647,8 +666,10 @@
 }
 
 .blog .blog-item:hover .blog-content a.btn:hover {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
+
 /*** Blog End ***/
 
 /*** Team Start ***/
@@ -699,7 +720,8 @@
 
 .team .team-item .team-title {
   color: var(--bs-white);
-  background: var(--bs-warning);
+  background: #f98a0eb3;
+  ;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   transition: 0.5s;
@@ -710,8 +732,9 @@
 }
 
 .team .team-item:hover .team-title {
-  background: var(--bs-dark);
+  /* background: var(--bs-dark); */
 }
+
 /*** Team End ***/
 
 /*** Testimonial Start ***/
@@ -724,7 +747,8 @@
   position: absolute;
   top: -58px;
   left: 0;
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
   color: var(--bs-white);
   padding: 5px 30px;
   border-radius: 30px;
@@ -732,7 +756,7 @@
 }
 
 .testimonial .owl-nav .owl-prev:hover {
-  background: var(--bs-dark);
+  background: #f98a0e;
   color: var(--bs-white);
 }
 
@@ -740,7 +764,8 @@
   position: absolute;
   top: -58px;
   right: 0;
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
   color: var(--bs-white);
   padding: 5px 30px;
   border-radius: 30px;
@@ -748,9 +773,10 @@
 }
 
 .testimonial .owl-nav .owl-next:hover {
-  background: var(--bs-dark);
+  background: #f98a0e;
   color: var(--bs-white);
 }
+
 /*** Testimonial End ***/
 
 /*** Contact Start ***/
@@ -802,11 +828,12 @@
   position: relative;
   z-index: 9;
 }
+
 /*** Contact End ***/
 
 /*** Footer Start ***/
 .footer {
-  background: var(--bs-dark);
+  background: gray;
 }
 
 .footer .footer-item {
@@ -825,7 +852,8 @@
 }
 
 .footer .footer-item a:hover {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .footer .footer-item .footer-btn a,
@@ -838,7 +866,8 @@
 }
 
 .footer .footer-item .footer-btn a:hover i {
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .footer .footer-item .footer-instagram {
@@ -874,36 +903,100 @@
 
 .footer .footer-item .footer-btn a {
   background: var(--bs-light);
-  color: var(--bs-warning);
+  color: #f98a0e;
+  ;
 }
 
 .footer .footer-item .footer-btn a:hover {
-  background: var(--bs-warning);
+  background: #f98a0e;
+  ;
 }
 
 .footer .footer-item .footer-btn a:hover i {
   color: var(--bs-white);
 }
+
 /*** Footer End ***/
 
 /*** copyright Start ***/
 .copyright {
-  background: var(--bs-dark);
+  background: gray;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
 /*** copyright end ***/
 
 @media (max-width: 768px) {
   section {
-      padding: 0 20px; /* Add some padding for smaller screens */
+    padding: 0 20px;
+    /* Add some padding for smaller screens */
   }
+
   img {
-      max-height: 400px; /* Limit the height for small screens */
+    max-height: 400px;
+    /* Limit the height for small screens */
   }
 }
 
 @media (max-width: 480px) {
   img {
-      max-height: 300px; /* Further limit the height for very small screens */
+    max-height: 300px;
+    /* Further limit the height for very small screens */
   }
+}
+
+.copyright a {
+  color: #ffffff;
+  /* Default color white */
+  text-decoration: none;
+  /* Removes underline */
+}
+
+.copyright a:hover {
+  color: #f98a0e;
+  /* Change to orange on hover */
+}
+
+/* Hover effect for the icon */
+.icon-hover {
+  transition: color 0.3s ease;
+  /* Smooth transition for color change */
+}
+
+.icon-hover:hover {
+  color: #f98a0e;
+  /* Change to your desired hover color */
+}
+
+/* Hover effect for the text */
+.text-hover {
+  transition: color 0.3s ease;
+  /* Smooth transition for color change */
+}
+
+a:hover .text-hover {
+  color: #f98a0e;
+  /* Change to your desired hover color */
+}
+
+.address-link h4,
+.email-link h4,
+.phone-link h4,
+.address-link p,
+.email-link p,
+.phone-link p {
+  color: white;
+  /* Default text color */
+  transition: color 0.3s ease;
+  /* Smooth transition for color change */
+}
+
+.address-link:hover h4,
+.email-link:hover h4,
+.phone-link:hover h4,
+.address-link:hover p,
+.email-link:hover p,
+.phone-link:hover p {
+  color: #f98a0e;
+  /* Hover text color */
 }

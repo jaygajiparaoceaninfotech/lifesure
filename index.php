@@ -73,7 +73,8 @@
 
     <!-- Carousel Start -->
     <div class="header-carousel owl-carousel">
-        <div class="header-carousel-item bg-primary">
+    <div class="header-carousel-item" style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
+
             <div class="carousel-caption">
                 <div class="container">
                     <div class="row g-4 align-items-center">
@@ -87,7 +88,7 @@
                                 <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
                                             class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +101,8 @@
                 </div>
             </div>
         </div>
-        <div class="header-carousel-item bg-primary">
+        <div class="header-carousel-item" style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
+
             <div class="carousel-caption">
                 <div class="container">
                     <div class="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
@@ -119,7 +121,7 @@
                                 <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
                                             class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>

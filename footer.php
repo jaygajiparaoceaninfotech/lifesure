@@ -3,9 +3,16 @@
         <div class="row g-5">
             <!-- Logo and Description -->
             <div class="col-md-6 col-lg-6 col-xl-3">
-                <div class="footer-item">
-                    <a href="index.php" class="p-0">
-                        <h3 class="text-white"><i class="fab fa-slack me-3"></i> OceanInfotech</h3>
+                <div class="footer-item gap-2">
+                    <h4 class="mb-4 text-white text-center">
+                        <a href="https://www.oceaninfotech.co.in/">
+                            <img src="https://www.oceaninfotech.co.in/assets/images/logo.png" alt="LifeSure Logo"
+                                class="me-2" style="height: 60px;"> <!-- Increased height -->
+                            <a href="https://www.oceaninfotech.co.in/" class="p-0">
+
+                            </a>
+                        </a>
+                    </h4>
                     </a>
                     <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor
                         sit amet, consectetur adipiscing...</p>
@@ -18,8 +25,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
-                <div class="footer-item">
-                    <h4 class="text-white mb-4">Important Links</h4>
+                <div class="footer-item text-white gap-2">
+                    <h4 class="mb-4 text-white">Important Links</h4>
                     <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
                     <a href="feature.php"><i class="fas fa-angle-right me-2"></i> Features</a>
                     <a href="service.php"><i class="fas fa-angle-right me-2"></i> Services</a>
@@ -29,7 +36,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
-                <div class="footer-item">
+                <div class="footer-item text-white gap-2">
                     <h4 class="text-white mb-4">Our Links</h4>
                     <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
                     <a href="feature.php"><i class="fas fa-angle-right me-2"></i> Features</a>
@@ -47,7 +54,7 @@
                             <div class="row g-4">
                                 <div class="col-12">
                                     <a href="https://www.google.com/maps/search/?api=1&query=123+Street,+New+York,+USA"
-                                        target="_blank">
+                                        target="_blank" class="address-link">
                                         <div class="d-flex">
                                             <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                 <i class="fas fa-map-marker-alt fa-2x"></i>
@@ -60,7 +67,7 @@
                                     </a>
                                 </div>
                                 <div class="col-12">
-                                    <a href="mailto:info@example.com">
+                                    <a href="mailto:info@example.com" class="email-link">
                                         <div class="d-flex">
                                             <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                 <i class="fas fa-envelope fa-2x"></i>
@@ -73,7 +80,7 @@
                                     </a>
                                 </div>
                                 <div class="col-12">
-                                    <a href="tel:+01234567890">
+                                    <a href="tel:+01234567890" class="phone-link">
                                         <div class="d-flex">
                                             <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                 <i class="fa fa-phone-alt fa-2x"></i>
@@ -86,6 +93,7 @@
                                     </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
