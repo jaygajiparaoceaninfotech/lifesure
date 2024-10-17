@@ -128,7 +128,7 @@
 
             <div class="row">
                 <!-- Main Blog Content -->
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-12">
                     <h1 class="mb-4 wow fadeInUp" data-wow-delay="0.2s">Which Allows You to Pay Down Insurance Bills
                     </h1>
 
@@ -151,9 +151,11 @@
                         <!-- Second row for blog content -->
                         <div class="row mb-4">
                             <div class="col-12">
-                                <p class="wow fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur
+                                <p class="wow fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet,
+                                    consectetur
                                     adipisicing elit. Voluptatibus, veniam? Velit, optio. Quisquam, debitis.</p>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet, consectetur
+                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet,
+                                    consectetur
                                     adipisicing elit. Nostrum, libero! Alias ad eveniet distinctio labore.</p>
                                 <h3 class="wow fadeInUp" data-wow-delay="0.7s">How to Pay Down Insurance Bills</h3>
                                 <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet consectetur
@@ -166,14 +168,13 @@
                                 <h4 class="wow fadeInUp" data-wow-delay="1.0s">Conclusion</h4>
                                 <p class="wow fadeInUp" data-wow-delay="1.1s">Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Facilis, rem.</p>
-
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Sidebar -->
-                <div class="col-lg-4 border-left">
+                <div class="col-lg-4 col-md-12 border-left">
                     <h3>Related Posts</h3>
 
                     <div class="recent-post-bx" <?php if ($current_blog === 'blog2')
@@ -200,8 +201,8 @@
                         </a>
                     </p>
                 </div>
-
             </div>
+
         </div>
     </div>
     <!-- Blog End -->

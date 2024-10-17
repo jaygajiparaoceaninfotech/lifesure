@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp; Canada – Ocean Infotech</title>
+    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
+        Canada – Ocean Infotech</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -12,7 +13,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Inter:slnt,wght@-10..0,100..900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Inter:slnt,wght@-10..0,100..900&amp;display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
@@ -70,8 +73,10 @@
                 </div>
                 <div class="modal-body d-flex align-items-center bg-primary">
                     <div class="input-group w-75 mx-auto d-flex">
-                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                        <span id="search-icon-1" class="btn bg-light border input-group-text p-3"><i class="fa fa-search"></i></span>
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="btn bg-light border input-group-text p-3"><i
+                                class="fa fa-search"></i></span>
                     </div>
                 </div>
             </div>
@@ -93,12 +98,12 @@
         <div class="container my-5 wow fadeInDown bg-white rounded" data-wow-delay="0.1s" style="padding: 20px;">
 
             <div class="row">
-
                 <!-- Main Blog Content -->
-                <div class="col-lg-8 blog-main">
+                <div class="col-lg-8 col-md-12 blog-main">
                     <h1 class="mb-4 wow fadeInUp" data-wow-delay="0.2s">Leverage agile frameworks to provide</h1>
 
-                    <div class="blog-comment d-flex fadeInUp gap-3 justify-content-center mb-3 wow" data-wow-delay="0.3s">
+                    <div class="blog-comment d-flex fadeInUp gap-3 justify-content-center mb-3 wow"
+                        data-wow-delay="0.3s">
                         <div class="small"><span class="fa fa-user text-primary"></span> Martin.C</div>
                         <div class="small"><span class="fa fa-calendar text-primary"></span> 30 Dec 2025</div>
                         <div class="small"><span class="fa fa-comment-alt text-primary"></span> 6 Comments</div>
@@ -115,28 +120,36 @@
                         <!-- Second row for blog content -->
                         <div class="row mb-4">
                             <div class="col-12">
-                                <p class="wow fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, veniam? Velit, optio. Quisquam, debitis.</p>
-                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, libero! Alias ad eveniet distinctio labore.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Voluptatibus, veniam? Velit, optio. Quisquam,
+                                    debitis.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.6s">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Nostrum, libero! Alias ad eveniet distinctio
+                                    labore.</p>
                                 <h3 class="wow fadeInUp" data-wow-delay="0.7s">How to Pay Down Insurance Bills</h3>
-                                <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis! Similique, nihil expedita! At, aperiam!</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Ratione, officiis! Similique, nihil expedita! At, aperiam!</p>
 
                                 <blockquote class="blockquote mt-4 wow fadeInUp" data-wow-delay="0.9s">
                                     <p class="mb-0">"The best way to predict the future is to create it."</p>
                                 </blockquote>
 
                                 <h4 class="wow fadeInUp" data-wow-delay="1.0s">Conclusion</h4>
-                                <p class="wow fadeInUp" data-wow-delay="1.1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem.</p>
+                                <p class="wow fadeInUp" data-wow-delay="1.1s">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Facilis, rem.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Sidebar -->
-                <div class="col-lg-4 blog-sidebar border-left">
+                <div class="col-lg-4 col-md-12 blog-sidebar border-left">
                     <h3>Related Posts</h3>
 
-                    <div class="recent-post-bx" <?php if ($current_blog === 'blog1') echo 'style="display: none;"'; ?>>
-                        <img src="https://www.oceaninfotech.co.in/blogs_image/1698727718_b-1.jpg" alt="Blog 1: Which Allows You to Pay Down Insurance Bills" class="img-fluid recent-img" />
+                    <div class="recent-post-bx" <?php if ($current_blog === 'blog1')
+                        echo 'style="display: none;"'; ?>>
+                        <img src="https://www.oceaninfotech.co.in/blogs_image/1698727718_b-1.jpg"
+                            alt="Blog 1: Which Allows You to Pay Down Insurance Bills" class="img-fluid recent-img" />
                         <span class="date-span">3-10-2021</span>
                     </div>
                     <p>
@@ -145,8 +158,10 @@
                         </a>
                     </p>
 
-                    <div class="recent-post-bx" <?php if ($current_blog === 'blog3') echo 'style="display: none;"'; ?>>
-                        <img src="https://www.oceaninfotech.co.in/blogs_image/1698727820_b3.jpg" alt="Blog 3: Lorem ipsum dolor sit." class="img-fluid recent-img" />
+                    <div class="recent-post-bx" <?php if ($current_blog === 'blog3')
+                        echo 'style="display: none;"'; ?>>
+                        <img src="https://www.oceaninfotech.co.in/blogs_image/1698727820_b3.jpg"
+                            alt="Blog 3: Lorem ipsum dolor sit." class="img-fluid recent-img" />
                         <span class="date-span">30 Dec 2025</span>
                     </div>
                     <p>
@@ -155,8 +170,8 @@
                         </a>
                     </p>
                 </div>
-
             </div>
+
         </div>
     </div>
     <!-- Blog End -->

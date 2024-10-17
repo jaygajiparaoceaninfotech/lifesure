@@ -1008,7 +1008,7 @@ a:hover .text-hover {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Optional for visibility */
+  background-color: #f98a0e9e; /* Optional for visibility */
   color: white;
   padding: 5px;
   font-size: 12px;
@@ -1030,4 +1030,10 @@ a:hover .text-hover {
       border-left: none;
   }
 }
+@media (max-width: 425px) {
+  .blog-categiry span {
+      font-size: 8px; /* Adjust this value to make the text smaller */
+  }
+}
+
 
