@@ -8,7 +8,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Blog</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Blog</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -120,7 +121,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                                <a href="blog1.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog1.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +137,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                                <a href="blog2.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog2.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +153,7 @@
                             <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
                             <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius libero soluta
                                 impedit eligendi? Quibusdam, laudantium.</p>
-                                <a href="blog3.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                            <a href="blog3.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -188,8 +189,8 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    
-    
+
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

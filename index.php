@@ -4,8 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Top Website, Mobile App Development &amp; Graphics Design Company USA, India, UK, Australia, Dubai &amp;
-        Canada – Ocean Infotech</title>
+    <title>Ocean Infotech</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -25,6 +24,7 @@
     <link rel="stylesheet" href="lib/animate/animate.min.css" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
 
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -73,17 +73,18 @@
 
     <!-- Carousel Start -->
     <div class="header-carousel owl-carousel">
-    <div class="header-carousel-item" style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
+        <div class="header-carousel-item"
+            style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
 
             <div class="carousel-caption">
                 <div class="container">
                     <div class="row g-4 align-items-center">
                         <div class="col-lg-7 animated fadeInLeft">
                             <div class="text-sm-center text-md-start">
-                                <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To LifeSure</h4>
-                                <h1 class="display-1 text-white mb-4">Life Insurance Makes You Happy</h1>
-                                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy...
+                                <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To Oceaninfotech</h4>
+                                <h1 class="display-1 text-white mb-4">Innovating Tomorrow’s Tech Solutions</h1>
+                                <p class="mb-5 fs-5">We believe that in today’s world, to succeed, you must be seen and
+                                    get connected with the right people
                                 </p>
                                 <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
@@ -101,7 +102,8 @@
                 </div>
             </div>
         </div>
-        <div class="header-carousel-item" style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
+        <div class="header-carousel-item"
+            style="background-color: rgba(249, 162, 14, 0.68); color: rgba(0, 0, 0, 0.2);">
 
             <div class="carousel-caption">
                 <div class="container">
@@ -113,10 +115,10 @@
                         </div>
                         <div class="col-lg-7 animated fadeInRight">
                             <div class="text-sm-center text-md-end">
-                                <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To LifeSure</h4>
-                                <h1 class="display-1 text-white mb-4">Life Insurance Makes You Happy</h1>
-                                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy...
+                                <h4 class="text-white text-uppercase fw-bold mb-4">Welcome To Oceaninfotech</h4>
+                                <h1 class="display-1 text-white mb-4">Innovating Tomorrow’s Tech Solutions</h1>
+                                <p class="mb-5 fs-5">We believe that in today’s world, to succeed, you must be seen and
+                                    get connected with the right people
                                 </p>
                                 <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                     <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
@@ -223,7 +225,7 @@
                         <!-- Service Content with Read More Button -->
                         <div class="service-content p-4">
                             <div class="service-content-inner">
-                                <a href="#" class="d-inline-block h4 mb-4">Life Insurance</a>
+                                <a class="d-inline-block h4 mb-4">Life Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
                                 <a class="btn btn-warning rounded-pill py-2 px-4" href="LifeInsurance.php">Read More</a>
@@ -242,7 +244,7 @@
                         <!-- Health Insurance Service Content with Read More Button -->
                         <div class="service-content p-4">
                             <div class="service-content-inner">
-                                <a href="#" class="d-inline-block h4 mb-4">Health Insurance</a>
+                                <a class="d-inline-block h4 mb-4">Health Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
                                 <a class="btn btn-warning rounded-pill py-2 px-4" href="HealthInsurance.php">Read
@@ -262,7 +264,7 @@
                         <!-- Car Insurance Section with Read More Button and Modal -->
                         <div class="service-content p-4">
                             <div class="service-content-inner">
-                                <a href="#" class="d-inline-block h4 mb-4">Car Insurance</a>
+                                <a class="d-inline-block h4 mb-4">Car Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
                                 <a class="btn btn-warning rounded-pill py-2 px-4" href="CarInsurance.php">Read More</a>
@@ -281,7 +283,7 @@
                         <!-- Home Insurance Section with Read More Button and Modal -->
                         <div class="service-content p-4">
                             <div class="service-content-inner">
-                                <a href="#" class="d-inline-block h4 mb-4">Home Insurance</a>
+                                <a class="d-inline-block h4 mb-4">Home Insurance</a>
                                 <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
                                     eum!</p>
                                 <a class="btn btn-warning rounded-pill py-2 px-4" href="HomeInsurance.php">Read More</a>
@@ -631,7 +633,7 @@
     </div>
     <!-- Testimonial End -->
 
-   
+
     <!-- Footer Start -->
     <?php
     include 'footer.php';
@@ -660,6 +662,7 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
 
 
     <!-- Template Javascript -->

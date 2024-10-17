@@ -17,11 +17,24 @@
                     <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor
                         sit amet, consectetur adipiscing...</p>
                     <div class="footer-btn d-flex">
-                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-md-square rounded-circle me-3"
+                            href="https://www.facebook.com/oceaninfotech16">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-md-square rounded-circle me-3" href="https://x.com/oceaninfotech16">
+    <i class="fab fa-twitter"></i>
+</a>
+
+                        <a class="btn btn-md-square rounded-circle me-3"
+                            href="https://www.instagram.com/oceaninfotech_rajkot/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-md-square rounded-circle me-0"
+                            href="https://in.linkedin.com/in/ocean-infotech-4609b4131">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">

@@ -1,18 +1,3 @@
-/*** Spinner Start ***/
-#spinner {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
-  z-index: 99999;
-}
-
-#spinner.show {
-  transition: opacity 0.5s ease-out, visibility 0s linear 0s;
-  visibility: visible;
-  opacity: 1;
-}
-
-/*** Spinner End ***/
 
 .back-to-top {
   position: fixed;
@@ -118,7 +103,7 @@
 .topbar .dropdown .dropdown-menu {
   transform: rotateX(0deg);
   visibility: visible;
-  background: var(--bs-light);
+  background: #fa8805d3;
   padding-top: 10px;
   border: 0;
   transition: 0.5s;
@@ -480,7 +465,7 @@
   left: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background: rgba(1, 95, 201, 0.2);
+  background: #fcd1a014;
   transition: 0.5s;
   z-index: 1;
 }
@@ -569,7 +554,7 @@
   left: 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background:#fcd1a014;
+  background: #fcd1a014;
   ;
   transition: 0.5s;
   z-index: 1;
@@ -601,7 +586,7 @@
   border-radius: 10px;
   transition: 0.5s;
 }
-  
+
 .blog .blog-item:hover {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
 }
@@ -634,7 +619,7 @@
   left: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background: rgba(1, 95, 201, 0.2);
+  background: #fcd1a014;
   transition: 0.5s;
   z-index: 1;
 }
@@ -651,7 +636,7 @@
   display: inline-flex;
   color: var(--bs-white);
   background: #dda666;
-  ; 
+  ;
   z-index: 9;
 }
 
@@ -1000,6 +985,7 @@ a:hover .text-hover {
   color: #f98a0e;
   /* Hover text color */
 }
+
 .recent-post-bx {
   position: relative;
 }
@@ -1008,32 +994,41 @@ a:hover .text-hover {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #f98a0e9e; /* Optional for visibility */
+  background-color: #f98a0e9e;
+  /* Optional for visibility */
   color: white;
   padding: 5px;
   font-size: 12px;
-  border-radius: 3px; /* Optional */
+  border-radius: 3px;
+  /* Optional */
 }
 
 .vertical-line {
-  width: 1px; /* Adjust the width of the line */
-  background-color: #ccc; /* Change the color of the line */
-  height: auto; /* Use auto to make it flexible */
-  margin: 0 15px; /* Add some spacing around the line */
+  width: 1px;
+  /* Adjust the width of the line */
+  background-color: #ccc;
+  /* Change the color of the line */
+  height: auto;
+  /* Use auto to make it flexible */
+  margin: 0 15px;
+  /* Add some spacing around the line */
 }
+
 .border-left {
   border-left: 1px solid #ddd;
 }
 
-@media (max-width: 991.98px) { /* Hides the border for screens less than 992px */
+@media (max-width: 991.98px) {
+
+  /* Hides the border for screens less than 992px */
   .border-left {
-      border-left: none;
+    border-left: none;
   }
 }
+
 @media (max-width: 425px) {
   .blog-categiry span {
-      font-size: 8px; /* Adjust this value to make the text smaller */
+    font-size: 8px;
+    /* Adjust this value to make the text smaller */
   }
 }
-
-
