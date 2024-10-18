@@ -126,34 +126,32 @@
                     <div class="mb-3">
                       <label for="name" class="form-label">Name</label>
                       <input type="text" class="form-control" id="name" placeholder="Enter employee name" required>
-                      <div class="error" id="nameError"></div>
+                      <div class="error text-danger" id="nameError"></div>
                     </div>
                     <div class="mb-3">
-                      <label for="position" class="form-label">Position</label>
-                      <input type="text" class="form-control" id="position" placeholder="Enter job position" required>
-                      <div class="error" id="positionError"></div>
+                      <label for="username" class="form-label">Username</label>
+                      <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+                      <div class="error text-danger" id="usernameError"></div>
                     </div>
                     <div class="mb-3">
-                      <label for="office" class="form-label">Office</label>
-                      <input type="text" class="form-control" id="office" placeholder="Enter office location" required>
-                      <div class="error" id="officeError"></div>
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                      <div class="error text-danger" id="emailError"></div>
                     </div>
                     <div class="mb-3">
-                      <label for="age" class="form-label">Age</label>
-                      <input type="number" class="form-control" id="age" placeholder="Enter age (1-100)" required
-                        min="1" max="100">
-                      <div class="error" id="ageError"></div>
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                      <div class="error text-danger" id="passwordError"></div>
                     </div>
                     <div class="mb-3">
-                      <label for="startDate" class="form-label">Start Date</label>
-                      <input type="date" class="form-control" id="startDate" required>
-                      <div class="error" id="startDateError"></div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="salary" class="form-label">Salary</label>
-                      <input type="text" class="form-control" id="salary" placeholder="Enter salary (numbers only)"
-                        required>
-                      <div class="error" id="salaryError"></div>
+                      <label for="state" class="form-label">State</label>
+                      <select class="form-control" id="state" required>
+                        <option value="">Select State</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Kerala">Kerala</option>
+                      </select>
+                      <div class="error text-danger" id="stateError"></div>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Submit</button>
                   </form>
@@ -270,76 +268,134 @@
   <!-- Kaiadmin DEMO methods, don't include it in your project! -->
   <script src="assets/js/setting-demo2.js"></script>
 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script>
+    $(document).ready(function() {
+    $('#employeeForm').on('submit', function(e) {
+        e.preventDefault(); // Prevent the form from submitting normally
 
-$(document).ready(function() {
-            // Handle form submission
-            $('#employeeForm').on('submit', function(event) {
-                event.preventDefault();
-                let isValid = true;
+        // Validate fields
+        const isValid = validateForm();
+        if (isValid) {
+            const employeeData = {
+                name: $('#name').val(),
+                username: $('#username').val(),
+                email: $('#email').val(),
+                password: $('#password').val(),
+                state: $('#state').val()
+            };
 
-                // Clear previous error messages
-                const errorFields = ['nameError', 'positionError', 'officeError', 'ageError', 'startDateError', 'salaryError'];
-                errorFields.forEach(field => {
-                    document.getElementById(field).textContent = '';
-                });
+            // Send employee data to local storage
+            const employees = JSON.parse(localStorage.getItem('employees')) || [];
+            employees.push(employeeData);
+            localStorage.setItem('employees', JSON.stringify(employees));
 
-                // Validate form fields
-                const name = $('#name').val();
-                const position = $('#position').val();
-                const office = $('#office').val();
-                const age = $('#age').val();
-                const startDate = $('#startDate').val();
-                const salary = $('#salary').val();
+            // Clear the form fields
+            this.reset();
+            $('.error').text(''); // Clear all error messages
+            alert('Employee added successfully!'); // Confirmation message
+        }
+    });
 
-                // Validations
-                if (name.trim() === '') {
-                    $('#nameError').text('Name is required.');
-                    isValid = false;
-                }
-                if (position.trim() === '') {
-                    $('#positionError').text('Position is required.');
-                    isValid = false;
-                }
-                if (office.trim() === '') {
-                    $('#officeError').text('Office is required.');
-                    isValid = false;
-                }
-                if (age < 1 || age > 100) {
-                    $('#ageError').text('Age must be between 1 and 100.');
-                    isValid = false;
-                }
-                if (!startDate) {
-                    $('#startDateError').text('Start date is required.');
-                    isValid = false;
-                }
-                if (!salary || isNaN(salary) || salary < 0) {
-                    $('#salaryError').text('Please enter a valid salary (numbers only).');
-                    isValid = false;
-                }
+    function validateForm() {
+        let isValid = true;
 
-                // If valid, save data to local storage
-                if (isValid) {
-                    const employeeData = {
-                        name,
-                        position,
-                        office,
-                        age,
-                        startDate,
-                        salary
-                    };
-                    // Save employee data to local storage
-                    let employees = JSON.parse(localStorage.getItem('employees')) || [];
-                    employees.push(employeeData);
-                    localStorage.setItem('employees', JSON.stringify(employees));
+        // Validate Name
+        const name = $('#name').val().trim();
+        if (name.length < 3) {
+            $('#nameError').text('Name must be at least 3 characters long.');
+            isValid = false;
+        } else {
+            $('#nameError').text('');
+        }
 
-                    // Clear form after submission
-                    $('#employeeForm')[0].reset();
-                    alert('Form submitted successfully!');
+        // Validate Username
+        const username = $('#username').val().trim();
+        if (username.length < 3) {
+            $('#usernameError').text('Username must be at least 3 characters long.');
+            isValid = false;
+        } else {
+            $('#usernameError').text('');
+        }
 
+        // Validate Email
+        const email = $('#email').val().trim();
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            $('#emailError').text('Enter a valid email address.');
+            isValid = false;
+        } else {
+            $('#emailError').text('');
+        }
+
+        // Validate Password
+        const password = $('#password').val().trim();
+        if (password.length < 6) {
+            $('#passwordError').text('Password must be at least 6 characters long.');
+            isValid = false;
+        } else {
+            $('#passwordError').text('');
+        }
+
+        // Validate State
+        const state = $('#state').val();
+        if (state === '') {
+            $('#stateError').text('Please select a state.');
+            isValid = false;
+        } else {
+            $('#stateError').text('');
+        }
+
+        return isValid;
+    }
+
+    // Dynamic validation on input change
+    $('#employeeForm input, #employeeForm select').on('input change', function() {
+        const id = this.id;
+        const value = $(this).val().trim();
+        
+        // Clear error messages dynamically based on input
+        switch (id) {
+            case 'name':
+                if (value.length < 3) {
+                    $('#nameError').text('Name must be at least 3 characters long.');
+                } else {
+                    $('#nameError').text('');
                 }
-            });
-        });
+                break;
+            case 'username':
+                if (value.length < 3) {
+                    $('#usernameError').text('Username must be at least 3 characters long.');
+                } else {
+                    $('#usernameError').text('');
+                }
+                break;
+            case 'email':
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(value)) {
+                    $('#emailError').text('Enter a valid email address.');
+                } else {
+                    $('#emailError').text('');
+                }
+                break;
+            case 'password':
+                if (value.length < 6) {
+                    $('#passwordError').text('Password must be at least 6 characters long.');
+                } else {
+                    $('#passwordError').text('');
+                }
+                break;
+            case 'state':
+                if (value === '') {
+                    $('#stateError').text('Please select a state.');
+                } else {
+                    $('#stateError').text('');
+                }
+                break;
+        }
+    });
+});
   </script>
 </body>
 

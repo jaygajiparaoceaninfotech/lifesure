@@ -10759,3 +10759,7 @@ body[data-background-color=dark] .jvm-zoom-btn {
 .is-invalid ~ .invalid-feedback {
    display: block; /* Show feedback for invalid inputs */
 }
+.invalid-feedback {
+   color: red; /* Change color for error messages */
+   font-size: 0.875em; /* Adjust font size if necessary */
+}

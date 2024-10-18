@@ -144,15 +144,14 @@ $newsletter = isset($_GET['newsletter']) ? $_GET['newsletter'] : 'No';
                     <thead>
                       <tr>
                         <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start Date</th>
-                        <th>Salary</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>State</th>
                       </tr>
                     </thead>
-                    <tbody id="employeeTableBody">
-                      <!-- Dynamic rows will be added here -->
+                    <tbody>
+                      <!-- Employee data will be populated here -->
                     </tbody>
                   </table>
                 </div>
@@ -1543,22 +1542,23 @@ $newsletter = isset($_GET['newsletter']) ? $_GET['newsletter'] : 'No';
       });
     });
     // add form 
-    $(document).ready(function () {
-      const employeeTable = $('#employeeTable').DataTable();
+      $(document).ready(function () {
+      // Initialize DataTable
+      const table = $('#employeeTable').DataTable();
 
       // Load employee data from local storage
       const employees = JSON.parse(localStorage.getItem('employees')) || [];
       employees.forEach(employee => {
-        employeeTable.row.add([
+        table.row.add([
           employee.name,
-          employee.position,
-          employee.office,
-          employee.age,
-          employee.startDate,
-          employee.salary
+          employee.username,
+          employee.email,
+          employee.password,
+          employee.state
         ]).draw();
       });
     });
+  </script>
   </script>
 </body>
 

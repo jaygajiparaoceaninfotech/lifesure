@@ -29,38 +29,38 @@
     <div class="container mt-5">
         <h2 class="text-center">Employee Form</h2>
         <form id="employeeForm">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter employee name" required>
-                <div class="error" id="nameError"></div>
-            </div>
-            <div class="mb-3">
-                <label for="position" class="form-label">Position</label>
-                <input type="text" class="form-control" id="position" placeholder="Enter job position" required>
-                <div class="error" id="positionError"></div>
-            </div>
-            <div class="mb-3">
-                <label for="office" class="form-label">Office</label>
-                <input type="text" class="form-control" id="office" placeholder="Enter office location" required>
-                <div class="error" id="officeError"></div>
-            </div>
-            <div class="mb-3">
-                <label for="age" class="form-label">Age</label>
-                <input type="number" class="form-control" id="age" placeholder="Enter age (1-100)" required min="1" max="100">
-                <div class="error" id="ageError"></div>
-            </div>
-            <div class="mb-3">
-                <label for="startDate" class="form-label">Start Date</label>
-                <input type="date" class="form-control" id="startDate" required>
-                <div class="error" id="startDateError"></div>
-            </div>
-            <div class="mb-3">
-                <label for="salary" class="form-label">Salary</label>
-                <input type="text" class="form-control" id="salary" placeholder="Enter salary (numbers only)" required>
-                <div class="error" id="salaryError"></div>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-        </form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter employee name" required>
+            <div class="error" id="nameError"></div>
+        </div>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+            <div class="error" id="usernameError"></div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            <div class="error" id="emailError"></div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+            <div class="error" id="passwordError"></div>
+        </div>
+        <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <select class="form-control" id="state" required>
+                <option value="">Select State</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Assam">Assam</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+            <div class="error" id="stateError"></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+    </form>
 
         <h2 class="text-center mt-5">Employee Data</h2>
         <table id="employeeTable" class="display table table-bordered mt-3">
@@ -83,81 +83,76 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script>
-        $(document).ready(function() {
-            // Initialize DataTable
-            const employeeTable = $('#employeeTable').DataTable();
+      $(document).ready(function() {
+    $('#employeeForm').on('submit', function(e) {
+        e.preventDefault(); // Prevent the form from submitting normally
 
-            // Handle form submission
-            $('#employeeForm').on('submit', function(event) {
-                event.preventDefault();
-                let isValid = true;
+        // Validate fields
+        const name = $('#name').val().trim();
+        const username = $('#username').val().trim();
+        const email = $('#email').val().trim();
+        const password = $('#password').val().trim();
+        const state = $('#state').val();
 
-                // Clear previous error messages
-                const errorFields = ['nameError', 'positionError', 'officeError', 'ageError', 'startDateError', 'salaryError'];
-                errorFields.forEach(field => {
-                    document.getElementById(field).textContent = '';
-                });
+        // Simple validations
+        let isValid = true;
 
-                // Name validation
-                const name = $('#name').val();
-                if (name.trim() === '') {
-                    $('#nameError').text('Name is required.');
-                    isValid = false;
-                }
+        if (name.length < 3) {
+            $('#nameError').text('Name must be at least 3 characters long.');
+            isValid = false;
+        } else {
+            $('#nameError').text('');
+        }
 
-                // Position validation
-                const position = $('#position').val();
-                if (position.trim() === '') {
-                    $('#positionError').text('Position is required.');
-                    isValid = false;
-                }
+        if (username.length < 3) {
+            $('#usernameError').text('Username must be at least 3 characters long.');
+            isValid = false;
+        } else {
+            $('#usernameError').text('');
+        }
 
-                // Office validation
-                const office = $('#office').val();
-                if (office.trim() === '') {
-                    $('#officeError').text('Office is required.');
-                    isValid = false;
-                }
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            $('#emailError').text('Enter a valid email address.');
+            isValid = false;
+        } else {
+            $('#emailError').text('');
+        }
 
-                // Age validation
-                const age = $('#age').val();
-                if (age < 1 || age > 100) {
-                    $('#ageError').text('Age must be between 1 and 100.');
-                    isValid = false;
-                }
+        if (password.length < 6) {
+            $('#passwordError').text('Password must be at least 6 characters long.');
+            isValid = false;
+        } else {
+            $('#passwordError').text('');
+        }
 
-                // Start date validation
-                const startDate = $('#startDate').val();
-                if (!startDate) {
-                    $('#startDateError').text('Start date is required.');
-                    isValid = false;
-                }
+        if (state === '') {
+            $('#stateError').text('Please select a state.');
+            isValid = false;
+        } else {
+            $('#stateError').text('');
+        }
 
-                // Salary validation
-                const salary = $('#salary').val();
-                if (!salary || isNaN(salary) || salary < 0) {
-                    $('#salaryError').text('Please enter a valid salary (numbers only).');
-                    isValid = false;
-                }
+        // If all fields are valid, redirect to the data table page
+        if (isValid) {
+            const employeeData = {
+                name: name,
+                username: username,
+                email: email,
+                password: password,
+                state: state
+            };
 
-                // If all validations pass
-                if (isValid) {
-                    // Add new row to DataTable
-                    employeeTable.row.add([
-                        name,
-                        position,
-                        office,
-                        age,
-                        startDate,
-                        salary
-                    ]).draw();
+            // Store employee data in localStorage
+            let employees = JSON.parse(localStorage.getItem('employees')) || [];
+            employees.push(employeeData);
+            localStorage.setItem('employees', JSON.stringify(employees));
 
-                    // Clear form after submission
-                    $('#employeeForm')[0].reset();
-                    alert('Form submitted successfully!');
-                }
-            });
-        });
-    </script>
+            // Redirect to data table page
+            window.location.href = 'employee_data.html';
+        }
+    });
+});
+</script>
 </body>
 </html>
