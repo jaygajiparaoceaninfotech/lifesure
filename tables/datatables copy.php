@@ -61,14 +61,14 @@
         <div class="sidebar-content">
           <ul class="nav nav-secondary">
             <li class="nav-item">
-              <a href="../index.php">
+              <a href="index.php">
 
                 <i class="fas fa-home"></i>
                 <p>Dashboard</p>
               </a>
             </li>
             <li class="nav-item submenu">
-              <a href="../forms/forms.php">
+              <a href="forms/forms.php">
                 <i class="fas fa-pen-square"></i>
                 <p>Forms</p>
               </a>

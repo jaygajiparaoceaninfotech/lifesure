@@ -146,8 +146,8 @@
                     <div class="mb-3">
                       <label for="state" class="form-label">State</label>
                       <select class="form-control" id="state" required>
-                        <option value="">Select State</option>
-                        <option value="Gujarat">Gujarat</option>
+                      <option value="" disabled selected>Select State</option>
+                      <option value="Gujarat">Gujarat</option>
                         <option value="Assam">Assam</option>
                         <option value="Kerala">Kerala</option>
                       </select>
