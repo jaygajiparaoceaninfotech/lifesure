@@ -14,6 +14,13 @@
       href="assets/img/kaiadmin/favicon.ico"
       type="image/x-icon"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ZENpIfx3ZFl2BOk+R4DsGGS1LfaSpCnq8Pcp1O89NfwT1p8l+AL2D7dD5qn7cOJC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7B4b8FszMCQeKN3tmGb9/ywYXb2cl1M2trb"
+    crossorigin="anonymous"></script>
+
 
     <!-- Fonts and icons -->
     <script src="assets/js/plugin/webfont/webfont.min.js"></script>
@@ -211,48 +218,6 @@
                     <li>
                       <a href="tables/datatables.php">
                         <span class="sub-item">Datatables</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#maps">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p>Maps</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="maps">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="maps/googlemaps.php">
-                        <span class="sub-item">Google Maps</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="maps/jsvectormap.php">
-                        <span class="sub-item">Jsvectormap</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#charts">
-                  <i class="far fa-chart-bar"></i>
-                  <p>Charts</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="charts">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="charts/charts.php">
-                        <span class="sub-item">Chart Js</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="charts/sparkline.php">
-                        <span class="sub-item">Sparkline</span>
                       </a>
                     </li>
                   </ul>
@@ -1882,9 +1847,6 @@
 
     <!-- Datatables -->
     <script src="assets/js/plugin/datatables/datatables.min.js"></script>
-
-    <!-- Bootstrap Notify -->
-    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- jQuery Vector Maps -->
     <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
